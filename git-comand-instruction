@@ -1,0 +1,78 @@
+
+GIT CONFIGURATION CODE 
+
+
+git config --global user.name nika
+
+git config --global user.email 1nika2girgvliani@gmail.com
+
+git config --global color.ui auto
+
+git config --global core.editor notepad++
+
+git config --list 
+
+cd (name of document directory)
+
+cd .. (one step back directory)
+
+cd ../..(two step beck directory)
+
+mkdir project (create directory by name project)
+
+touch test.txt  (create file)
+
+cp test.txt text_copy.txct (copy file this to this)
+
+mv test.txt test_original.txt (rename test.txt to test_original.txt)
+
+echo hello > test_original.txt  (write hello to test_original.txt)
+
+cat test_original.txt (open to read file test_original.txt)
+
+rm test_copy.txt (remove test_copy.txt)
+
+rm -R project (remove directory recurisve)
+
+git init (inicialization of directory , make a empty file to directory check everycing bu ls -a)
+
+git status (chek ststus of repozitory)
+
+git remote add origin https://github.com/1nika2daki/test_github_repo.git  (conction local and github  repository// origin is a name of this conection)
+
+git remote -v (list of remote conection)
+
+git add readmy.md (add file to make comit )
+
+git commit -m info oc commitw mesage(adding commit without oupen editor)
+
+git commit -am coment
+
+gitkeep (created this file to empty directory for adding it untrectied file and ading commit) (touch images/.gitkeep)
+
+.gitignore (name of file thast will e ignore cor adding inicialization or commit)   echo config > .gitignore
+
+git branch ( check on which repo you are (master  or other ))
+
+git branch dev (create vetka dev)
+
+git checkout dev (pereiti na vetku dev)
+
+git branch dev-master master (create new branch from master on base) (dev -master is a name / and master is a bse )
+
+git checkout -b dev-test (move on  branch dev-test and if you can't find it , create the branch and move on it)
+
+ssh-keygen (create ssh key for remote conection github)
+
+git clone git@github.com:1nika2daki/project.git (download repo from github)
+
+ git push --set-upstream origin dev (upgrade remote repo if they don't have this branch , branch dev)
+ 
+ git push -u origin dev (upgrade remote repo ) same
+
+git pull (download from remote new repo, upgrade)
+
+git fetch (update repository's brench from remote repo)
+
+
+
