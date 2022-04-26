@@ -80,3 +80,7 @@ git branch - d sacdeli (delete branch locally)
 
 git push --delete origin sacdeli (delete remote branch from github)
 
+git rebase main (smisti vetu , unda shexvide imashi saidanac ginda ro daiwyos da mere es brdzaneb da tavshi gadaitans im branchs romelshicxar)
+
+git push --force (prinuditilna perezapisvbait vetku master)
+
