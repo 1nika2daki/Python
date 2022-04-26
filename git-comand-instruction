@@ -74,5 +74,9 @@ git pull (download from remote new repo, upgrade)
 
 git fetch (update repository's brench from remote repo)
 
+git merge sacdeli(sliania vetki sacdeli v main , nada bit v vetke main )
+
+git branch - d sacdeli (delete branch locally)
+
 
 
