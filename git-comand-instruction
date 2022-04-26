@@ -78,5 +78,5 @@ git merge sacdeli(sliania vetki sacdeli v main , nada bit v vetke main )
 
 git branch - d sacdeli (delete branch locally)
 
-
+git push --delete origin sacdeli (delete remote branch from github)
 
