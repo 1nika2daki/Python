@@ -84,3 +84,13 @@ git rebase main (smisti vetu , unda shexvide imashi saidanac ginda ro daiwyos da
 
 git push --force (prinuditilna perezapisvbait vetku master)
 
+git tag 1.0.0 (add tage create versioan)
+
+git tag (check which version we have)
+
+git push --tags (push tags in githyb)
+
+git tag -d 1.0.1 (delate tag )
+
+git push --delete origin 1.0.1 (delete push tag from github)
+
